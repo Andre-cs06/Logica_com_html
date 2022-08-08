@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+
+<script>
+
+function pulaLinha() {
+
+	document.write("<br>");
+
+}
+
+function print(frase) {
+
+
+	document.write(frase);
+	pulaLinha();
+}
+    
+var ano = 2022;
+
+print("Flávio tem " + (ano - 1977) + " de idade");
+
+print("Joaquim tem " + (ano - 1996) + " de idade")
+
+ano = 2023;
+
+print("Barney tem " + (ano - 1976) + " de idade");
+
+var idadeFlravio = 45;
+var idadeJoaquim = 26;
+var idadeBarney = 47;
+
+var media = (idadeFlravio + idadeJoaquim + idadeBarney)/3;
+
+pulaLinha();
+print("a media das idades é " + Math.round(media));
+
+</script>
